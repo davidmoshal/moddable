@@ -106,7 +106,7 @@ Example apps that require a network connection must configure the target device 
 
 For example, to build and run the `httpget` app on the network `friedkin` with a password `tacos`:
 
-	cd $MODDABLE/examples/network/httpget
+	cd $MODDABLE/examples/network/http/httpget
 	mcconfig -d -m -p esp ssid=friedkin password=tacos
 
 To build and run the `sntp` app for the open network `Free Wifi`:
